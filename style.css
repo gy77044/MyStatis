@@ -98,12 +98,14 @@ button{
     border-radius: 5px;
     background-color:rgb(89, 183, 73);
     border:none;
+    right:-110px;
     padding-top:10px;
     padding-bottom:10px;
     padding-left:28px;
     padding-right:28px;
-    margin:30px;
-    right:-107px;
+    margin-top:30px;
+    margin-right:10px;
+    
 }
 
 
