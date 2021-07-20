@@ -49,39 +49,42 @@ input{
     height:auto;
     border:none;    
     font-size: 18px;    
-    margin:20px;
+    margin:10px;
     margin-top:40px;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 40px;
-    padding-right: 40px;    
+    padding-left: 50px;
+    padding-right: 50px;    
 
 }
 
-/* 
+ 
 ::placeholder{
     display: flex;
     position: relative;
-    left:34%;    
-    height:24px;
     width:auto;    
     height:fixed;
     font-family: 'Nunito-Light',sans-serif;
+    font-weight: 100;
     font-size: 18px;    
-    letter-spacing: 0.25px;
+    letter-spacing: -0.23px;
     color: rgb(255, 255, 255);
-    align-items: center;
     justify-content: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
 }
+
+
 small{
+    content:" ";
     display: flex;
     position: relative;
     color:red;
-    font-size: 18px;
-    font-weight: 600;
-    top:350px;
+    font-size: 10px;
+    font-weight: 600;    
+    cursor: pointer;
 }
-
 
 
 #btn{
@@ -92,7 +95,6 @@ small{
 button{
     display:inline-block;
     position:relative;
-    top:200px;
     right:-105px;
     width:auto;
     height:auto;
@@ -104,6 +106,7 @@ button{
     padding-left:28px;
     padding-right:28px;
 }
+/*
 #resend, #cancel
 {display: flex;
     position: absolute;
