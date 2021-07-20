@@ -56,8 +56,8 @@ input{
     margin-top:40px;
     padding-top:15px;
     padding-bottom:15px;
-    padding-left: 50px;
-    padding-right: 50px;    
+    padding-left: 30px;
+    padding-right: 30px;    
 
 }
 
@@ -102,8 +102,7 @@ small{
     padding-left:28px;
     padding-right:28px;
     margin-top:30px;
-    float: inline-end;
-    left:110px;
+    left:90px;
 }
 
 
