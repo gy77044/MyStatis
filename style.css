@@ -93,11 +93,8 @@ small{
 
 
 button{
-    display:inline-block;
+    display:flex;
     position:relative;
-    right:-105px;
-    width:auto;
-    height:auto;
     border-radius: 5px;
     background-color:rgb(89, 183, 73);
     border:none;
@@ -105,6 +102,18 @@ button{
     padding-bottom:10px;
     padding-left:28px;
     padding-right:28px;
+    margin:30px;
+    right:-107px;
+}
+
+
+a{
+    background-color:rgb(89, 183, 73);
+    text-decoration: none;
+    font-family: 'Nunito-Light',sans-serif;
+    font-size: 18px;    
+    letter-spacing: .25px;
+    color: rgb(255, 255, 255);
 }
 /*
 #resend, #cancel
@@ -118,14 +127,7 @@ button{
     color: rgb(255, 255, 255);
     border-radius: 5px;
 }
-a{
-    background-color:rgb(89, 183, 73);
-    text-decoration: none;
-    font-family: 'Nunito-Light',sans-serif;
-    font-size: 18px;    
-    letter-spacing: .25px;
-    color: rgb(255, 255, 255);
-}
+
 
 #download-platform{
     display: flex;
