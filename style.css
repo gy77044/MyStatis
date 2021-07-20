@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nutino', Bold ;  
+    background-color: white;
+    margin:0;
+    min-height: 100vh;
+    
+
+}
+
+#border{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin:0;
+    padding:0;
+    width:459px;
+    height:1024px;
+    margin-bottom:10px;
+    
+}
+
+#header {
+    position:relative;
+    left:10px;
+    right:16px;
+    top: 261px;
+    width:auto;
+    height:auto;
+    border:none;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    position: absolute;
+    background-color: rgb(89, 183, 73);   
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    top: 433px;  
+    left:30px;  
+    width: auto;
+    height:auto;
+    border:none;
+    padding-top: 16px;
+    padding-bottom:16px;
+    padding-left: 10px;
+    padding-right: 160px;
+    font-size: 18px;
+    color: white
+    
+
+
+    
+
+}
+
+
+::placeholder{
+    display: flex;
+    position: absolute;
+    left:37%;    
+    height:24px;
+    width:auto;    
+    height:fixed;
+    font-family: 'Nunito-Light',sans-serif;
+    font-size: 18px;    
+    letter-spacing: .25px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+small{
+    display: flex;
+    position: relative;
+    color:red;
+    font-size: 18px;
+    font-weight: 600;
+    top:350px;
+}
+
+
+
+#btn{
+    display: inline-block;
+}
+
+
+button{
+    display:inline-block;
+    position:absolute;
+    top:550px;
+    right:42px;
+    width:auto;
+    height:auto;
+    border-radius: 5px;
+    background-color:rgb(89, 183, 73);
+    border:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:28px;
+    padding-right:28px;
+}
+#resend, #cancel
+{display: flex;
+    position: absolute;
+    left:45px;
+    background-color:rgb(247,154,33);
+    font-family: 'Nunito-Light',sans-serif;
+    font-size: 18px;    
+    letter-spacing: 0.23px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+a{
+    background-color:rgb(89, 183, 73);
+    text-decoration: none;
+    font-family: 'Nunito-Light',sans-serif;
+    font-size: 18px;    
+    letter-spacing: .25px;
+    color: rgb(255, 255, 255);
+}
+
+#download-platform{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: absolute;
+    left:20px;
+    top:650px;
+}
+img{
+    margin:10px;
+}
+p{
+    display: flex;
+    position: relative;
+    top: 300px;
+    left:45px;
+    color:rgb(237, 55, 58);
+    height: 21px;
+    width: auto;
+    font-size: 20px;
+
+
+}
+label{display: flex;
+    position: relative;
+    top:250px;
+    color:rgb(171, 180, 189);
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: -0.23px;
+    height:42px;
+    width: auto;
+}
+#entercode-header{
+    display: flex;
+    position: relative;
+    margin:0;
+    padding:0;
+    top:-40px;
+}
+
+#onboarding-header{
+    display: flex;
+    position: relative;
+    top:100px;
+    width:auto;    
+
+}
+#label-onboard-div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+
+#name-label,#email-label,#birthday-label,#gender-label{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 60px;
+    
+}
+#name,#email,#birthday,#gender{
+    display: flex;
+    position:relative;
+    top:150px;
+    height:24px;
+    color:rgb(0, 0, 0);
+    font-family: 'Nunito-Light',sans-serif;
+    font-size: bold;    
+    letter-spacing: .25px;
+}
+#email{
+    display: flex;
+    position:relative;
+    margin-bottom: 15px;;
+}
+#birthday{
+    display: flex;
+    position:relative;
+    margin-bottom: 15px;
+    top:150px;
+}
+
+#name-label input, #email-label input, #birthday-label input, #gender-label input{
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 150px;
+    margin-bottom:-30px;
+}
+
+
+#btn-onboardingjs{
+    display: inline-block;
+    }
+
+#btn-onboardingjs #cancel,
+#btn-onboardingjs #sign-up{
+    display: flex;
+    flex-direction:inherit;
+    top:75%;
+}
+
+#completedetail-header{
+    display: flex;
+    position: relative;
+    top:250px;
+}
+
+#add-btn{
+    display: flex;
+    position: relative;
+    top: 250px;
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    color:rgb(89, 183, 73);
+    font-size: 61px;
+    background-color: rgb(203, 202, 202);
+    left:10%;
+    margin-bottom:50px;
+}
+
+#completedetail-input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-200px;
+    
+}
+
+#completedetail-input #username{
+    display: flex;
+    position: relative;
+    margin-bottom:20px;
+    left:0px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#completedetail-input #password{
+    display: flex;
+    position: relative;
+    margin-bottom:20px;
+    left:0px;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+}
+#done-btn{
+    display: flex;
+    position: relative;
+    top: 230px;
+    left:8px;
+}
+
+select{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    background-color: rgb(89, 183, 73);
+    color:white;
+    top:150px;
+    border-radius: 8px;
+    padding-top:12px;
+    padding-bottom:12px
+}
+option{
+    display: flex;
+    position: relative;
+}
