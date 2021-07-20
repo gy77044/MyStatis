@@ -80,7 +80,7 @@ input{
 
 
 small{
-    content:" ";
+  
     display: flex;
     position: relative;
     color:red;
@@ -90,12 +90,8 @@ small{
 }
 
 
-#btn{
-    display: inline-block;
-}
 
-
-button{
+#next-btn{
     display:flex;
     position:relative;
     border-radius: 5px;
@@ -106,8 +102,8 @@ button{
     padding-left:28px;
     padding-right:28px;
     margin-top:30px;
-    right:-110px;
-    
+    float: inline-end;
+    left:110px;
 }
 
 
@@ -116,7 +112,7 @@ a{
     text-decoration: none;
     font-family: 'Nunito-Light',sans-serif;
     font-size: 18px;    
-    letter-spacing: .25px;
+    letter-spacing: -0.25px;
     color: rgb(255, 255, 255);
 }
 /*
