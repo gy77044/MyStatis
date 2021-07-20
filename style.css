@@ -28,38 +28,41 @@ body{
     width:459px;
     height:1024px;
     margin-bottom:10px;
+    overflow-x: hidden;
     
 }
 
 #header {
     position:relative;
     left:10px;
-    right:16px;
-    top: 261px;
+    right:10px;
+    top: 200px;
     width:auto;
     height:auto;
     border:none;
     align-items: center;
     text-align: center;
+    margin:40px;
+    padding:10px;
 }
 
 input{
-    position: absolute;
+    position: relative;
     background-color: rgb(89, 183, 73);   
     border-radius: 8px;
     align-items: center;
     justify-content: center;
-    top: 433px;  
-    left:68px;  
+    top: 170px;    
     width: auto;
     height:auto;
     border:none;
     padding-top: 16px;
     padding-bottom:16px;
-    padding-left: 0px;
-    padding-right: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
     font-size: 18px;
-    color: white
+    color: white;
+    margin:30px;
     
 
 
@@ -70,7 +73,7 @@ input{
 
 ::placeholder{
     display: flex;
-    position: absolute;
+    position: relative;
     left:34%;    
     height:24px;
     width:auto;    
@@ -100,9 +103,9 @@ input{
 
 button{
     display:inline-block;
-    position:absolute;
-    top:550px;
-    right:66px;
+    position:relative;
+    top:200px;
+    right:-105px;
     width:auto;
     height:auto;
     border-radius: 5px;
@@ -116,7 +119,7 @@ button{
 #resend, #cancel
 {display: flex;
     position: absolute;
-    left:72px;
+    left:90px;
     background-color:rgb(247,154,33);
     font-family: 'Nunito-Light',sans-serif;
     font-size: 18px;    
@@ -136,7 +139,8 @@ a{
 #download-platform{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin:40px;
+    margin-top: 10px;
     position: absolute;
     left:40px;
     top:650px;
@@ -147,18 +151,20 @@ img{
 p{
     display: flex;
     position: relative;
-    top: 300px;
-    left:45px;
+    top: 200px;
+    left:0px;
     color:rgb(237, 55, 58);
     height: 21px;
     width: auto;
     font-size: 20px;
+    margin-left:50px;
+    margin-right: 50px;
 
 
 }
 label{display: flex;
     position: relative;
-    top:250px;
+    top:150px;
     color:rgb(171, 180, 189);
     font-size: 20px;
     text-align: center;
@@ -170,7 +176,9 @@ label{display: flex;
 #entercode-header{
     display: flex;
     position: relative;
-    margin:0;
+    width:auto;
+    margin-left:30px;
+    margin-right: 30px;
     padding:0;
     top:-40px;
 }
