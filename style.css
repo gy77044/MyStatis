@@ -9,8 +9,9 @@ body{
     justify-content: center;
     font-family: 'Nutino', Bold ;  
     background-color: white;
-    margin:0;
+    margin:30px;
     min-height: 100vh;
+    padding:30px;
     
 
 }
@@ -305,3 +306,4 @@ option{
     display: flex;
     position: relative;
 }
+
