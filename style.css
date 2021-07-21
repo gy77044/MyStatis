@@ -1,309 +1,86 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    box-sizing:border-box;
+}
 
 
 body{
+    display: grid;
+    max-width: 459px;
+    height:1024px; 
+    margin:auto; 
+    border:1px solid rgb(0, 0, 0);   
+    color:rgb(255, 255, 255);           
+}
+img{
     display: flex;
     position: relative;
-    font-family: 'Nutino', sans-serif ;  
-    background-color: white;
-    justify-content: center;
-
-    margin:10;
-    padding:0;
-    min-height: 100vh;    
-
+    top:269px;
+    
+    margin:25px;
 }
-
-
-#outer-border{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width:459px;
-    height:1024px;
-    border: 1px solid rgb(0, 0, 0);
-    justify-content: center;
-    align-items: center;
-}
-
-
-#header-image{
-    display: flex;
-    position:relative;
-    width:427px;
-    height:129px;
-    justify-content: center;
-    align-items: center;
-    padding:20px;
-}
-
-
-
 
 input{
+    display: flex;
     position: relative;
-    background-color: rgb(89, 183, 73);   
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;    
-    width: auto;
-    height:auto;
-    border:none;    
-    font-size: 18px;    
-    margin:10px;
-    margin-top:40px;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left: 30px;
-    padding-right: 30px;    
-
+    margin-left:30px;
+    margin-right:40px;
+    height:50px;
+    justify-content: center;
+    align-items: center;    
+    background-color: teal;
+    border:none;
+    border-radius: 5px;
+    padding-left:20px;
+    font-size: 18px;
+    top:-20px
 }
-
- 
 ::placeholder{
     display: flex;
     position: relative;
-    width:auto;    
-    height:fixed;
-    font-family: 'Nunito-Light',sans-serif;
-    font-weight: 100;
-    font-size: 18px;    
-    letter-spacing: -0.23px;
-    color: rgb(255, 255, 255);
-    justify-content: center;
-    text-align: center;
-    justify-content: center;
-    border: none;
-}
-
-
-small{
-  
-    display: flex;
-    position: relative;
-    color:red;
-    font-size: 10px;
-    font-weight: 600;    
-    cursor: pointer;
-}
-
-
-
-#next-btn{
-    display:flex;
-    position:relative;
-    border-radius: 5px;
-    background-color:rgb(89, 183, 73);
-    border:none;    
-    padding-top:12px;
-    padding-bottom:13px;
-    padding-left:28px;
-    padding-right:35px;
-    margin-top:30px;
-    left:100%;
-}
-
-
-a{
-    background-color:rgb(89, 183, 73);
-    text-decoration: none;
-    font-family: 'Nunito-Light',sans-serif;
-    font-size: 18px;    
-    letter-spacing: -0.25px;
-    color: rgb(255, 255, 255);
-}
-/*
-#resend, #cancel
-{display: flex;
-    position: absolute;
-    left:90px;
-    background-color:rgb(247,154,33);
-    font-family: 'Nunito-Light',sans-serif;
-    font-size: 18px;    
-    letter-spacing: 0.23px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-}
-
-
-#download-platform{
-    display: flex;
-    flex-direction: column;
-    margin:40px;
-    margin-top: 10px;
-    position: absolute;
-    left:40px;
-    top:650px;
-}
-img{
-    margin:10px;
-}
-p{
-    display: flex;
-    position: relative;
-    top: 200px;
-    left:0px;
-    color:rgb(237, 55, 58);
-    height: 21px;
-    width: auto;
-    font-size: 20px;
-    margin-left:50px;
-    margin-right: 50px;
-
-
-}
-label{display: flex;
-    position: relative;
-    top:150px;
-    color:rgb(171, 180, 189);
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    letter-spacing: -0.23px;
-    height:42px;
-    width: auto;
-}
-#entercode-header{
-    display: flex;
-    position: relative;
-    width:auto;
-    margin-left:30px;
-    margin-right: 30px;
-    padding:0;
-    top:-40px;
-}
-
-#onboarding-header{
-    display: flex;
-    position: relative;
-    top:100px;
-    width:auto;    
-
-}
-#label-onboard-div{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    
-
-}
-
-#name-label,#email-label,#birthday-label,#gender-label{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: 60px;
-    
-}
-#name,#email,#birthday,#gender{
-    display: flex;
-    position:relative;
-    top:150px;
-    height:24px;
-    color:rgb(0, 0, 0);
-    font-family: 'Nunito-Light',sans-serif;
-    font-size: bold;    
-    letter-spacing: .25px;
-}
-#email{
-    display: flex;
-    position:relative;
-    margin-bottom: 15px;;
-}
-#birthday{
-    display: flex;
-    position:relative;
-    margin-bottom: 15px;
-    top:150px;
-}
-
-#name-label input, #email-label input, #birthday-label input, #gender-label input{
-    display: flex;
-    position: relative;
-    left: 0px;
-    top: 150px;
-    margin-bottom:-30px;
-}
-
-
-#btn-onboardingjs{
-    display: inline-block;
-    }
-
-#btn-onboardingjs #cancel,
-#btn-onboardingjs #sign-up{
-    display: flex;
-    flex-direction:inherit;
-    top:75%;
-}
-
-#completedetail-header{
-    display: flex;
-    position: relative;
-    top:250px;
-}
-
-#add-btn{
-    display: flex;
-    position: relative;
-    top: 250px;
-    height:90px;
-    width:90px;
-    border-radius: 50%;
-    color:rgb(89, 183, 73);
-    font-size: 61px;
-    background-color: rgb(203, 202, 202);
-    left:10%;
-    margin-bottom:50px;
-}
-
-#completedetail-input {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top:-200px;
-    
-}
-
-#completedetail-input #username{
-    display: flex;
-    position: relative;
-    margin-bottom:20px;
-    left:0px;
-    color:rgb(255, 255, 255);
-    font-size: 18px;
-}
-
-#completedetail-input #password{
-    display: flex;
-    position: relative;
-    margin-bottom:20px;
-    left:0px;
-    color:rgb(255, 255, 255);
-    font-size: 18px;
-}
-#done-btn{
-    display: flex;
-    position: relative;
-    top: 230px;
-    left:8px;
-}
-
-select{
-    display: flex;
-    position: relative;
-    font-size: 20px;
-    background-color: rgb(89, 183, 73);
     color:white;
-    top:150px;
-    border-radius: 8px;
-    padding-top:12px;
-    padding-bottom:12px
+    justify-content: center;
+    align-items: center;
+    border:none;
+    font-size: 18px;
 }
-option{
-    display: flex;
+
+button{
+    display:flex;
     position: relative;
+    margin-right:40px;
+    margin-left:340px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    font-size:18px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 25px;
+    letter-spacing: 1px;
+
 }
- */
+.input-element{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+
+}
+
+
+.download-platform{
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top:450px;
+
+    height:20px;
+    margin-left:10px;
+
+}
+
+
