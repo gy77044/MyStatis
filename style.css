@@ -44,6 +44,7 @@ input{
     display: flex;
     position: relative;
     padding:15px;
+    width:auto;
     background-color:teal;
     border-radius:5px;
     margin-top:20px;
@@ -51,7 +52,7 @@ input{
 ::placeholder{
     color:white;
     font-size:18px;
-    
+
     
 }
 
@@ -87,3 +88,5 @@ a{
 img{
     margin-bottom:10px;
 }
+
+@keyframe 
