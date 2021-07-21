@@ -9,6 +9,7 @@
 body{
    
     display: flex;
+    position:relative;
     align-items: center;
     justify-content: center;
     font-family: "Nunito", sans-serif;
@@ -20,25 +21,68 @@ body{
 .mobile-container{
     
     display: flex;
+    position: relative;
     flex-direction: column;
     position: relative;
     width:400px;
     height:900px;
-    border:1px solid black ;
+    border:1px solid black;
 
 }
-header{
-    position: relative;
-    top:250px;
-    margin-bottom:20px;
-}
 
+
+.logo{
+    display: flex;
+    position:relative;
+    top:140px;
+    flex-direction: column;
+    margin:30px;
+    padding:10px;
+    
+}
 input{
+    display: flex;
     position: relative;
-    top:230px;
-    margin-bottom:20px;
-    margin:20px;
     padding:15px;
+    background-color:teal;
     border-radius:5px;
-    background-color:
+    margin-top:20px;
+}
+::placeholder{
+    color:white;
+    font-size:18px;
+    
+}
+
+.btn-next{
+    display:flex;
+    position:absolute;
+    top:370px;
+    right:40px;    
+
+}
+
+button{
+    background-color:teal;
+    padding:10px;
+    border-radius: 5px;
+    color:white;
+    font-size:18px;    
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+.download-platform{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left:40px;
+    top:480px;
+}
+
+img{
+    margin-bottom:10px;
 }
