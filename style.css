@@ -13,83 +13,20 @@ body{
     align-items: center;
     justify-content: center;
     font-family: "Nunito", sans-serif;
-    margin: 10;
+    margin:1em;
     min-height: 100vh;
 
 }
 
-.mobile-container{
-    
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    position: relative;
-    width:400px;
-    height:900px;
-    border:1px solid black;
 
+
+@media(max-width:998rem){
+    html{
+        font-size:55%;
+    }
 }
-
-
-.logo{
-    display: flex;
-    position:relative;
-    top:140px;
-    flex-direction: column;
-    margin:30px;
-    padding:10px;
-    
+@media(max-width:768rem){
+    html{
+        font-size: 45%;
+    }
 }
-input{
-    display: flex;
-    position: relative;
-    padding:15px;
-    width:100% !important;
-    background-color:teal;
-    border-radius:5px;
-    margin-top:20px;
-    border:none;
-}
-::placeholder{
-    color:white;
-    font-size:18px;
-    letter-spacing: -0.23;
-
-    
-}
-
-.btn-next{
-    display:flex;
-    position:absolute;
-    top:370px;
-    right:40px;    
-
-}
-
-button{
-    background-color:teal;
-    padding:10px;
-    border-radius: 5px;
-    color:white;
-    font-size:18px;
-    border:none;    
-}
-
-a{
-    color:white;
-    text-decoration:none;
-}
-
-.download-platform{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left:40px;
-    top:480px;
-}
-
-img{
-    margin-bottom:10px;
-}
-
-@keyframe 
