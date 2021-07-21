@@ -44,14 +44,16 @@ input{
     display: flex;
     position: relative;
     padding:15px;
-    width:auto;
+    width:100% !important;
     background-color:teal;
     border-radius:5px;
     margin-top:20px;
+    border:none;
 }
 ::placeholder{
     color:white;
     font-size:18px;
+    letter-spacing: -0.23;
 
     
 }
@@ -69,7 +71,8 @@ button{
     padding:10px;
     border-radius: 5px;
     color:white;
-    font-size:18px;    
+    font-size:18px;
+    border:none;    
 }
 
 a{
