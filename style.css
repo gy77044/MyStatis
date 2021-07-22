@@ -208,7 +208,7 @@ input.gender{
     
 }
 
-select {
+select{
     display: flex;
     position: relative;
     width:100%;
@@ -230,7 +230,61 @@ option{
 }
 
 
+.add-btn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#add-img{
+    display: flex;
+    position: relative;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color:silver;
+    border-radius: 50%;
+    border: none;
+    color: rgb(89, 183, 73);
 
+}
+#add-img a{
+    color: rgb(89, 183, 73);
+    font-weight: 800;
+    font-size: 35px;
+
+}
+
+input.username{
+    display: flex;
+    position: relative;
+    margin-bottom:0px;
+}
+input.password{
+    display: flex;
+    position: relative;
+    margin-top:10px;
+}
+
+
+.username::placeholder,
+.password::placeholder{
+    display: flex;
+    position: relative;
+    left:-100px;
+    font-size: 18px;    
+    letter-spacing: -0.23px;
+}
+#completedetail-done{
+    background-color:rgb(89, 183, 73);
+    border:none;
+}
+
+#completedetail-done a{
+    background-color: rgb(89, 183, 73);
+    letter-spacing: -0.23px;
+}
 /*  ---------------header-----------
 #h1{
     display: flex;
