@@ -52,7 +52,7 @@ input{
     margin-top: 50px;
     width:100%;
     height:50px;
-    border-radius: 0.5rem;
+    border-radius: 0.35rem;
     text-align: center;
     align-items: center;
     background-color: rgb(89, 183, 73);    
@@ -68,7 +68,8 @@ input{
     font-weight: 100;
     
 }
-#small{
+#small
+{
     color: rgb(237,55 , 58);
     font-family: "Nunito",sans-serif;
     font-weight:800;
@@ -207,8 +208,30 @@ input.gender{
     
 }
 
+select {
+    display: flex;
+    position: relative;
+    width:100%;
+    background-color: rgb(89, 183, 73);
+    border-radius: .35rem;
+    font-size: 18px;
+    height:50px;
+    color: rgb(255, 255, 255);
+    
+    
 
-/* 
+}
+option{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+
+/*  ---------------header-----------
 #h1{
     display: flex;
     position: relative;
@@ -227,84 +250,3 @@ input.gender{
 #i{
     color:red;
 } */
-
-/* h3{
-    margin-top: 0px;
-    font-size: 20px;
-} */
-
-
-/* 
-h5{
-    color:red;
-    margin-top: 5px;
-    font-size:15px;
-} */
-
-/* #btn{
-    display: flex;
-    position: relative;
-    text-decoration: none;
-    color:white
-     
-    } */
-
-/* #resend{
-    display: flex;
-    position: relative;    
-    background-color: tomato;
-    color: white;
-    text-decoration: none;
-    margin-right: 40px;
-    letter-spacing: 0.5px;
-    border: none;
-} */
-
-
-/* h4{
-    display:flex;
-    position: relative;
-    left:-80px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin-bottom: 0%;
-    font-weight: 100px;
-    margin-left: 5px;
-    margin-top: 15px;
-        
-} */
-
-/* img{
-    display: flex;
-    position: relative;
-    margin-top: 15px;
-
-    left:-50px;
-    
-} */
-
-
-/* #next-index-btn{
-    display: flex;
-    position: relative;
-    background-color: rgb(89,183, 73);
-    color: white;
-    text-decoration: none;
-    letter-spacing: .23px;
-    border: none;  
-    text-align: center;
-    align-items: center;
-
-} */
-/* 
-#new-input{
-    display: flex;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(32, 153, 32);    
-    border:none;
-    font-weight: 100;
-    color:rgb(255, 255, 255);
-} */
-
