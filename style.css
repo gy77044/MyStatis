@@ -279,6 +279,7 @@ input.password{
 #completedetail-done{
     background-color:rgb(89, 183, 73);
     border:none;
+    margin-bottom: 40px;
 }
 
 #completedetail-done a{
