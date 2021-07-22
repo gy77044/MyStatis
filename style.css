@@ -95,9 +95,23 @@ button{
     padding:5px 25px;    
     letter-spacing: 1px;
     border: none;
+    right:-126px
     
 
 }
+
+#entercod-btn-next{
+    display: flex;
+    position: relative;
+    background-color: rgb(89,183, 73);
+    color: white;
+    text-decoration: none;
+    padding:5px 25px;    
+    letter-spacing: 1px;
+    border: none;
+
+}
+
 #resend{
     display: flex;
     position: relative;
