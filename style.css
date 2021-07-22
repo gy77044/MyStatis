@@ -1,7 +1,6 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap'); */
 *{
     box-sizing: border-box;
 }
@@ -10,23 +9,217 @@ body{
    
     display: flex;
     position:relative;
+   
+    font-family:'Nunito', sans-serif;
+    /* font-family: 'Yusei Magic', sans-serif; */
+  
+    background-color: white;
     align-items: center;
     justify-content: center;
-    font-family: "Nunito", sans-serif;
-    margin:1em;
+    
     min-height: 100vh;
+    width:429px;
+    height:1024px;
+    border: 1px solid black;
+
+}
+
+.border{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid black;
+    width:350px;
+    margin:15px;
+    text-align: center;
+    align-items: center;
+
 
 }
 
 
+.border img #header-img{
+    display: flex;
+    position: relative;
+    
 
-@media(max-width:998rem){
-    html{
-        font-size:55%;
-    }
 }
-@media(max-width:768rem){
-    html{
-        font-size: 45%;
-    }
+
+p{
+    color: rgb(150, 150, 150);
+    font-size: large;
+    margin: 0;
 }
+input{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    width:100%;
+    height:50px;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(32, 153, 32);    
+    font-size: 20px;
+    border:none;
+    font-weight: 100;
+    color:rgb(255, 255, 255);
+}
+
+::placeholder{
+    color:rgb(255, 255, 255);
+    
+}
+
+button{
+    display: flex;
+    position: relative;
+    border-radius: 0.25rem;
+    padding: 10px 25px;   
+    margin-top:30px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    
+    
+    
+}
+.btn-next{
+    display:inline-block;
+    
+}
+
+#next{
+    display: flex;
+    position: relative;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding:10px 25px;    
+    letter-spacing: 1px;
+    border: none;
+    right:-100px;  
+
+}
+
+#download-platform{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 50px;
+    left:-25%;
+
+    
+
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+img{
+    margin-bottom: 10px;
+}
+
+/* 
+#h1{
+    display: flex;
+    position: relative;
+    font-size: 60px;
+    margin-bottom: 15px;
+
+
+}
+
+#s{
+    color:rgb(255, 136, 0);
+}
+#t{
+    color:rgb(42, 189, 13);
+}
+#i{
+    color:red;
+} */
+
+/* h3{
+    margin-top: 0px;
+    font-size: 20px;
+} */
+
+
+/* 
+h5{
+    color:red;
+    margin-top: 5px;
+    font-size:15px;
+} */
+
+/* #btn{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color:white
+     
+    } */
+
+/* #resend{
+    display: flex;
+    position: relative;    
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    letter-spacing: 0.5px;
+    border: none;
+} */
+
+
+/* h4{
+    display:flex;
+    position: relative;
+    left:-80px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 0%;
+    font-weight: 100px;
+    margin-left: 5px;
+    margin-top: 15px;
+        
+} */
+
+/* img{
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+
+    left:-50px;
+    
+} */
+
+
+/* #next-index-btn{
+    display: flex;
+    position: relative;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .23px;
+    border: none;  
+    text-align: center;
+    align-items: center;
+
+} */
+/* 
+#new-input{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(32, 153, 32);    
+    border:none;
+    font-weight: 100;
+    color:rgb(255, 255, 255);
+} */
+
