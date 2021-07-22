@@ -20,7 +20,7 @@ body{
     min-height: 100vh;
     width:429px;
     height:1024px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 
 }
 
@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width:350px;
     margin:15px;
     text-align: center;
@@ -45,11 +45,7 @@ body{
 
 }
 
-p{
-    color: rgb(150, 150, 150);
-    font-size: large;
-    margin: 0;
-}
+
 input{
     display: flex;
     position: relative;
@@ -59,7 +55,7 @@ input{
     border-radius: 0.5rem;
     text-align: center;
     align-items: center;
-    background-color: rgb(32, 153, 32);    
+    background-color: rgb(89, 183, 73);    
     font-size: 20px;
     border:none;
     font-weight: 100;
@@ -76,7 +72,7 @@ button{
     position: relative;
     border-radius: 0.25rem;
     padding: 10px 25px;   
-    margin-top:30px;
+    margin-top:50px;
     font-size: 20px;
     text-decoration: none;
     color:white;
@@ -85,23 +81,36 @@ button{
     
 }
 .btn-next{
-    display:inline-block;
+    display:flex;
+    position: relative;
     
 }
 
 #next{
     display: flex;
     position: relative;
-    background-color: green;
+    background-color: rgb(89,183, 73);
     color: white;
     text-decoration: none;
-    padding:10px 25px;    
+    padding:5px 25px;    
     letter-spacing: 1px;
     border: none;
-    right:-100px;  
+    
 
 }
+#resend{
+    display: flex;
+    position: relative;
+    background-color: rgb(247,154,33);
+    color: white;
+    text-decoration: none;
+    padding:5px 10px;    
+    letter-spacing: 1px;
+    border-color: rgb(253, 151, 39);
+    margin-right:100px;
+      
 
+}
 #download-platform{
     display: flex;
     flex-direction: column;
@@ -123,6 +132,28 @@ img{
     margin-bottom: 10px;
 }
 
+.encode-input{
+    display: flex;
+    position: relative;
+    width:80%;
+    margin-top:0;
+}
+
+p{
+    color: rgb(171, 180, 189);
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    margin-top:20px;
+    margin-bottom:0;
+}
+.code-time{
+    color: rgb(237,55 , 58);
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-weight:bold;
+    margin-top:5px;
+    margin-bottom:0;
+}
 /* 
 #h1{
     display: flex;
@@ -202,7 +233,7 @@ h5{
 /* #next-index-btn{
     display: flex;
     position: relative;
-    background-color: green;
+    background-color: rgb(89,183, 73);
     color: white;
     text-decoration: none;
     letter-spacing: .23px;
