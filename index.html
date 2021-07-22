@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyStatis</title>
     <link rel="stylesheet" href="style.css">
-    <script src = "script.js" defer ></script>
+    <script src = "app.js" defer ></script>
 </head>
 <body>
     <div class="border">
@@ -14,7 +14,8 @@
         <h3>Date at your own pace.</h3> -->
         <img class="header-img" src="/mysHeaderTextLogo.png" alt="">
         
-        <input type="num" placeholder="Phone Number">
+        <input id="enter-number"  type="num" placeholder="Phone Number" onclick="showFormat();">
+        <small id="small"></small>
        <div class="btn-next">
         <button id = "next"><a href="/entercode.html">Next</a></button>
        </div>

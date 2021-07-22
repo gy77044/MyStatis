@@ -9,39 +9,29 @@
     <script src = "script.js" defer ></script>
 </head>
 <body>
-    <div id="border">
-        <div id="onboarding-header">
-            <img src="/mysHeaderTextLogo.png" id="header-image" >
+    <div class="border">
+        <!-- <h1 id="h1">My<span id="s">S</span><span id="t">t</span>a<span id="t">t</span><span id="i">i</span><span id="s">s</span></h1>
+        <h3>Date at your own pace.</h3> -->
+        <img class="header-img" src="/mysHeaderTextLogo.png" alt="">
+        <div class ="form-label">
+            <label for="name">Name</label>
+            <input class="name" type="text" placeholder="Name">
+            <label for="email">Email</label>
+            <input class="email" type="email" placeholder="Email">
+            <label for="birthday">Birthday</label>
+            <input  class="birthday" type="date">
+            <label for="gender">Gender</label>
+            <input class="gender" type="gender" placeholder="Gender">
         </div>
-        <div id="label-onboard-div">
-            <div id="name-label">
-                <label id="name" for="name">Name</label>
-                <input id="" type="name" placeholder="Name">
-            </div>
-            <div id="email-label">
-                <label id="name" for="email">Email</label>
-                <input id="" type="email" placeholder="Email">
-            </div>
-            <div id="birthday-label">
-                <label id="name" for="birthday">Birthday</label>
-                <input id="date" type="date" style="text-align:right;">
-            </div>
-            <div id="gender-label">
-                <label id="gender" for="gender">Gender</label>
-                <select name="gender" id="gender-options">
-                    <option value="Other">Select</option>
-                    <option value="male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Other">Other</option>
-                  </select>
-            </div>
-        </div>
-
-        <div id="btn-onboardingjs">
-            <button id ="cancel">Cancel</button>
-            <button id="sign-up"><a href="/completedetail.html">Sign up</a></button>
-        </div>
-       
+       <div class="btn-next">
+        <button id = "cancel"><a href="/entercode.html">Cancel</a></button>
+        <button id = "entercod-btn-next"><a href="/entercode.html">Next</a></button>
+       </div>
+        
+        <div id="download-platform">
+            <img src="/appStoreicon.svg" alt="">
+            <img src="/google-169-189833.svg" alt="">
+           </div>
 
     </div>
 
@@ -49,6 +39,3 @@
     
 </body>
 </html>
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
