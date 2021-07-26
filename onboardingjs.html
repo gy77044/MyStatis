@@ -15,15 +15,15 @@
         <img class="header-img" src="/mysHeaderTextLogo.png" alt="">
         <div class ="form-label">
             <label for="name">Name</label>
-            <input class="name"  type="text" placeholder="Name" >
+            <input class="name" id="enter-name"  type="text" placeholder="Name" onclick="nameValidation();" >
+            <small id="valid-name"></small>
            
             <label for="email">Email</label>
-            <input class="email" type="email" placeholder="Email" >
-            
-            <label for="birthday">Birthday</label>
+            <input class="email" id="enter-email" type="email" placeholder="Email" >
+            <label for="birthday" id="enter-birthday">Birthday</label>
             <input  class="birthday" type="date" placeholder="Birthday">
             <label for="gender">Gender</label>
-           
+                      
             <select>
                 <option value="">Select</option>
                 <option value="male">Male</option>
